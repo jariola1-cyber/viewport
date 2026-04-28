@@ -1,6 +1,4 @@
-/* YOUR NAME GOES HERE */
-
-/* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
+/* ----- MICO ARIOLA (jariola1) ----- */
 
 * {
     list-style: none;
@@ -12,8 +10,6 @@ body {
     font-size: 16px;
 }
 
-/* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
-/* ---------- VARIABLES ---------- */
 :root{
     --red: #760029;
     --pink: #9a0093;
@@ -29,18 +25,10 @@ body {
     --dark-gray: #222;
 }
 
-/* ---------- GLOBAL STYLES ---------- */
 *{
     box-sizing: border-box;
     line-height: 1.35;
 }
-
-
-
-/* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
-/* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-
-/* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
 @media (prefers-color-scheme: dark) {
     body{
@@ -48,11 +36,6 @@ body {
     }
 }
 
-/* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-
-
-
-/* ----- HEADINGS ----- */
 h1, h2, h3, h4{
     font-weight: bold;
 }
